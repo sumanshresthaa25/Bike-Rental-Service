@@ -1,0 +1,49 @@
+name: bike_rental_service
+description: "A simple Flutter app for a bike rental service."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.12.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  crypto: ^3.0.7
+  cupertino_icons: ^1.0.8
+  http: ^1.6.0
+  image_picker: ^1.2.0
+  path_provider: ^2.1.5
+  provider: ^6.1.5+1
+  shared_preferences: ^2.5.3
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_launcher_icons: ^0.13.1
+  flutter_lints: ^6.0.0
+  flutter_native_splash: ^2.4.8
+
+flutter_launcher_icons:
+  android: true
+  ios: true
+  image_path: "lib/assets/icon/icon.jpg"
+  web:
+    generate: true
+    image_path: "lib/assets/icon/icon.jpg"
+  macos:
+    generate: true
+    image_path: "lib/assets/icon/icon.jpg"
+
+flutter_native_splash:
+  color: "#38BDF8"
+  image: web/icons/Icon-512.png
+  android: true
+  ios: true
+  web: true
+  android_12:
+    color: "#38BDF8"
+    image: web/icons/Icon-512.png
+
+flutter:
+  uses-material-design: true
